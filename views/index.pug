@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  p Welcome to Doni
+  form(action = "" method = "post")
+    p ISBN
+    input(type = "text", name = "isbn", title = "ISBN")
+    p Title
+    input(type = "text", name = "title", title = "title")
+    p Subtitle
+    input(type = "text", name = "subtitle", title = "subtitle")
+    p Author
+    input(type = "text", name = "author", title = "author")
+    p Published
+    input(type = "text", name = "published", title = "published")
+    p Publisher
+    input(type = "text", name = "publisher", title = "publisher")
+    p Pages
+    input(type = "text", name = "pages", title = "pages")
+    p Description
+    input(type = "text", name = "description", title = "description")
+    p Website
+    input(type = "text", name = "website", title = "website")
+    br
+    br
+    button(type = "submit") Donis First Action
+
